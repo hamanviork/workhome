@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 1000px;
+    width: 95%;
+  }
+}
+
+@media (max-width: 620px) {
+  .navbar__contacts {
+    display: none;
+  }
+}
+
+.navbar {
+  padding: 13px 0;
+}
+
+.navbar__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__info {
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.navbar__address {
+  display: block;
+  font-size: 13px;
+  color: #333333;
+}
+
+.navbar__button {
+  margin-left: 15px;
+  border-radius: 8px;
+  padding: 15px 15px;
+  background-color: #FFD200;
+}
+
+.navbar__contacts a {
+  font-size: 20px;
+  color: #333333;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
